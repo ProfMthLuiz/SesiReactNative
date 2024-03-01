@@ -1,6 +1,6 @@
-# React Native <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="20" height="20"/>
+# React Native
 
-Comando utilizados em React Native :iphone: <br> <br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/> Comandos utilizados em React Native: <br> <br>
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
