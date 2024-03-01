@@ -7,26 +7,20 @@ Comando utilizados em React Native :iphone: <br> <br>
 &ensp; &ensp; ``` npx expo install react-native-web react-dom @expo/metro-runtime ``` <br>
 &ensp; &ensp; 🔧 Instala as dependências necessárias para executar o aplicativo no navegador. <br> <br>
 
-&ensp; &ensp;<strong>npx expo start </strong> <br>
-&ensp; &ensp; &ensp; &ensp;<i>INICIA O PROJETO</i> <br> <br>
+&ensp; &ensp; ``` npx expo start ``` <br>
+&ensp; &ensp; ▶️ Inicia o projeto. <br> <br>
 
-&ensp; &ensp;<strong>npx expo start --tunnel</strong> <br>
-&ensp; &ensp; &ensp; &ensp;<i>INICIA O PROJETO COM SUPORTE A CONEXÕES EXTERNAS</i> <br> <br>
+&ensp; &ensp; ``` npx expo start --tunnel ```<br>
+&ensp; &ensp; 🔗 Inicia o projeto com suporte a conexões externas. <br> <br>
 
-&ensp; &ensp;<strong>npx expo start --web </strong> <br>
-&ensp; &ensp; &ensp; &ensp;<i>INICIA O SERVIDOR DE DESENVOLVIMENTO NO AMBIENTE WEB</i> <br> <br>
+&ensp; &ensp; ``` npx expo start --web ``` <br>
+&ensp; &ensp; 🌐 Inicia o servidor de desenvolvimento no ambiente web. <br> <br>
 
-&ensp; &ensp;<strong>npm install @react-navigation/native	</strong> <br>
-&ensp; &ensp; &ensp; &ensp;<i>INSTALA O PACOTE EM SEU PROJETO, QUE FORNECE AS FUNCIONALIDADES BÁSICAS PARA NAVEGAÇÃO</i> <br> <br>
+&ensp; &ensp; ``` npm install @react-navigation/native ``` <br>
+&ensp; &ensp; 🔖 Instala o pacote em seu projeto, que fornece as funcionalidades básicas para navegação. <br> <br>
 
 &ensp; &ensp; ``` npx expo install react-native-screens react-native-safe-area-context ``` <br>
-&ensp; &ensp; &ensp; &ensp;<i>INSTALA DEPENDÊNCIAS NECESSÁRIAS PARA O CORRETO FUNCIONAMENTO DO REACT NAVIGATION EM PROJETOS EXPO</i> <br> <br>
+&ensp; &ensp; 📱 Instala dependências necessárias para o correto funcionamento do React Navigation em projetos Expo. <br> <br>
 
 &ensp; &ensp; ``` npm install @react-navigation/native-stack ``` <br>
-&ensp; &ensp; &ensp; &ensp;<i>INSTALA O PACOTE STACK QUE GERENCIA A NEVAGAÇÃO ENTRE DIFERENTES TELAS</i> <br> <br>
-
-```
-function test() {
-  console.log("notice the blank line before this function?");
-}
-```
+&ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br>
