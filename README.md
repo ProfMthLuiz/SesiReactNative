@@ -24,3 +24,6 @@
 
 &ensp; &ensp; ``` npm install @react-navigation/native-stack ``` <br>
 &ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br>
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicações <br> <br>
+export vs export default
