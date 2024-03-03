@@ -1,9 +1,9 @@
 # React Native
 
 [- Comandos](#comandos-utilizados-em-react-native) <br>
+[- Explicações](#comandos-utilizados-em-react-native) <br>
 
-
-
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>Comandos utilizados em React Native
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
@@ -29,12 +29,10 @@
 &ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br>
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicações <br> <br>
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>Explicações
 export vs export default
 
-
-
-
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>Comandos utilizados em React Native
 
 
 
