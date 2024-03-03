@@ -1,9 +1,9 @@
 # React Native
 
 [- Comandos](#comandos-utilizados-em-react-native) <br>
-[- Explicações](#comandos-utilizados-em-react-native) <br>
+[- Explicações](#explicações) <br>
 
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>Comandos utilizados em React Native
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> Comandos utilizados em React Native
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
