@@ -34,7 +34,7 @@ export vs export default
 
 
 
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>  Comandos utilizados em React Native
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>Comandos utilizados em React Native
 
 
 
