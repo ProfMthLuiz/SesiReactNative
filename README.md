@@ -30,8 +30,8 @@
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicação sobre export e export default<br>
 
-- <strong>export vs export default</strong>: <br>
-No JavaScript, há duas formas de exportar funcionalidades de um arquivo: utilizando <strong>export</strong> e <strong>export default</strong>.  <br><br>
+No JavaScript, há duas formas de exportar funcionalidades de um arquivo, você pode utilizar <strong>export</strong> ou <strong>export default</strong>.  <br><br>
+- <strong>export</strong>: <br>
 Quando você exporta uma constante, função ou classe usando apenas <strong>export</strong>, você precisa importá-la exatamente pelo nome que foi exportado, e, para importar múltiplas coisas, você precisa envolvê-las entre chaves {}, exemplo:
 ```
 // Arquivo1.js
@@ -42,8 +42,8 @@ export const minhaFuncao = () => {
 // Arquivo2.js
 import { minhaFuncao } from './Arquivo1';
 ```
-&ensp; &ensp;  Quando você usa <strong>export default</strong>, você está exportando uma única coisa que será considerada como o valor padrão do arquivo.<br> 
-&ensp;&ensp; &ensp;Isso significa que quando você importa, você pode dar a esse valor o nome que desejar, não precisando envolvê-lo entre chaves, exemplo:
+- <strong>export default:</strong> <br>
+Quando você usa <strong>export default</strong>, você está exportando uma única coisa que será considerada como o valor padrão do arquivo. Isso significa que quando você importa, você pode dar a esse valor o nome que desejar, não precisando envolvê-lo entre chaves, exemplo:
 
 ```
 // Arquivo1.js
