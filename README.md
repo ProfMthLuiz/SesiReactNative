@@ -2,6 +2,23 @@
 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> [Comandos utilizados em React Native:](#anchor-comando-select) <br>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## :anchor: Comandos utilizados em React Native
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
@@ -39,9 +56,3 @@ export vs export default
 
 
 
-
-
-
-
-## :anchor: Comando SELECT
-O comando SELECT é utilizado para recuperar dados de um banco de dados em SQL 
