@@ -1,11 +1,7 @@
 # React Native
 
-- :round_pushpin: [Select](#anchor-comando-select) <br>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> [Comandos utilizados em React Native:](#anchor-comando-select) <br>
 
-
-
-
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="40" height="40"/> Comandos utilizados em React Native: <br> <br>
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
