@@ -1,8 +1,8 @@
 # React Native
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> [- Comandos](#anchor-comandos-utilizados-em-react-native) <br>
+[- Comandos](#anchor-comandos-utilizados-em-react-native) <br>
 
-## :anchor: Comandos utilizados em React Native
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/>  Comandos utilizados em React Native
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
