@@ -26,6 +26,9 @@
 &ensp; &ensp; 📱 Instala dependências necessárias para o correto funcionamento do React Navigation em projetos Expo. <br> <br>
 
 &ensp; &ensp; ``` npm install @react-navigation/native-stack ``` <br>
+&ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br> <br>
+
+&ensp; &ensp; ``` npx expo install react-native-web react-dom @expo/metro-runtime ``` <br>
 &ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br> <br> <br>
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicação sobre export e export default<br>
