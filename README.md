@@ -2,7 +2,7 @@
 
 [:round_pushpin: - Comandos](#-comandos-utilizados-em-react-native) <br>
 [:round_pushpin: - Export x Export Default](#-explicação-sobre-export-e-export-default) <br>
-[:round_pushpin: - Componentes Filhos (Childrens)](#-explicação-sobre-export-e-export-default) <br>
+[:round_pushpin: - Componentes Filhos (Childrens)](#-explicação-sobre-childrens--componentes-filhos-) <br>
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> Comandos utilizados em React Native
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
