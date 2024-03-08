@@ -2,6 +2,7 @@
 
 [:round_pushpin: - Comandos](#-comandos-utilizados-em-react-native) <br>
 [:round_pushpin: - Export x Export Default](#-explicação-sobre-export-e-export-default) <br>
+[:round_pushpin: - Componentes Filhos (Childrens)](#-explicação-sobre-export-e-export-default) <br>
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> Comandos utilizados em React Native
 &ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
@@ -26,7 +27,7 @@
 &ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br>
 
 &ensp; &ensp; ``` npx expo install react-native-web react-dom @expo/metro-runtime ``` <br>
-&ensp; &ensp; 🔧 Instala as dependências necessárias para executar o aplicativo no navegador. <br> <br>
+&ensp; &ensp; 🔧 Instala as dependências necessárias para executar o aplicativo no navegador. <br> <br> <br>
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicação sobre export e export default<br>
 
@@ -53,7 +54,7 @@ export default meuValorPadrao;
 // Arquivo2.js
 import qualquerNome from './Arquivo1';
 ```       
-
-
+<br> <br> <br>
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicação sobre childrens ( Componentes Filhos )<br>
 
 
