@@ -55,6 +55,6 @@ export default meuValorPadrao;
 import qualquerNome from './Arquivo1';
 ```       
 <br> <br> <br>
-## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicação sobre childrens ( Componentes Filhos )<br>
+## <img src="https://cdn-icons-png.flaticon.com/128/135/135031.png" width="40" height="40" /> Explicação sobre childrens ( Componentes Filhos )<br>
 
 
