@@ -71,11 +71,12 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 
 <strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Stack, você deve utilizar os seguintes comandos:</strong>
 
-``` 
-1º - npm install @react-navigation/native
-2º - npx expo install react-native-screens react-native-safe-area-context
-3º - npm install @react-navigation/native-stack
-4º - npx expo install react-native-web react-dom @expo/metro-runtime
+```
+1º - npx create-expo-app nameYourApp
+2º - npm install @react-navigation/native
+3º - npx expo install react-native-screens react-native-safe-area-context
+4º - npm install @react-navigation/native-stack
+5º - npx expo install react-native-web react-dom @expo/metro-runtime
 ```
 <br> <br> <br>
 
