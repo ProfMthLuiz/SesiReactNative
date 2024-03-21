@@ -186,6 +186,27 @@ Com os hooks, como useState, useEffect, useContext e outros, os desenvolvedores 
 
 Os hooks proporcionam uma maneira mais simples e intuitiva de escrever componentes em React Native, reduzindo a necessidade de classes e tornando o código mais limpo e legível. Além disso, eles promovem a reutilização de lógica de estado e efeitos entre componentes, facilitando a manutenção e o desenvolvimento de aplicativos React Native.
 
+```
+import React, { useState } from 'react';
+import { View, Text, Button } from 'react-native';
+
+export default function App() {
+  // Definindo um estado inicial para a variável count
+  const [count, setCount] = useState(0);
+
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Contador: {count}</Text>
+      <Button
+        title="Incrementar"
+        onPress={() => setCount(count + 1)} // Atualizando o estado de count ao pressionar o botão
+      />
+    </View>
+  );
+}
+
+```
+
 <br> <br> <br>
 
 
@@ -196,3 +217,38 @@ Os hooks proporcionam uma maneira mais simples e intuitiva de escrever component
 Um modal em React Native é uma janela sobreposta que aparece na parte superior da tela atual, geralmente para exibir conteúdo secundário ou solicitar interação do usuário. Ele é útil para exibir informações temporárias, como mensagens de confirmação, formulários de entrada de dados ou detalhes adicionais sobre um item.
 
 Os modais são úteis porque interrompem temporariamente a interação do usuário com o restante da interface, direcionando toda a atenção para o conteúdo exibido no modal. Eles são implementados usando o componente Modal fornecido pelo React Native, que oferece controle sobre quando o modal é exibido ou oculto.
+
+```
+import React, { useState } from 'react';
+import { View, Text, Modal, Button } from 'react-native';
+
+export default function App() {
+  const [modalVisible, setModalVisible] = useState(false);
+
+  return (
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Button
+        title="Abrir Modal"
+        onPress={() => setModalVisible(true)} // Exibir o modal ao pressionar o botão
+      />
+      <Modal
+        animationType="slide"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => setModalVisible(false)} // Fechar o modal ao pressionar o botão "Voltar" no Android
+      >
+        <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center', backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
+          <View style={{ backgroundColor: 'white', padding: 20, borderRadius: 10 }}>
+            <Text>Este é um modal simples.</Text>
+            <Button
+              title="Fechar Modal"
+              onPress={() => setModalVisible(false)} // Fechar o modal ao pressionar o botão
+            />
+          </View>
+        </View>
+      </Modal>
+    </View>
+  );
+}
+
+```
