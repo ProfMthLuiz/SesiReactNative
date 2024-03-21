@@ -179,9 +179,20 @@ export default App;
 
 
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1804/1804046.png" width="40" height="40" /> Explicação sobre Hooks<br>
+## <img src="https://cdn-icons-png.flaticon.com/512/3111/3111305.png" width="40" height="40" /> Explicação sobre Hooks<br>
+Em React Native, um hook é uma característica introduzida no React na versão 16.8 que permite adicionar estado e comportamento de ciclo de vida a componentes funcionais. Antes dos hooks, os componentes funcionais eram limitados em funcionalidades, não podendo gerenciar estado interno ou utilizar métodos de ciclo de vida.
+
+Com os hooks, como useState, useEffect, useContext e outros, os desenvolvedores podem agora utilizar funcionalidades anteriormente reservadas para componentes de classe diretamente em componentes funcionais. Por exemplo, o hook useState permite que um componente funcional tenha seu próprio estado interno, enquanto useEffect permite executar efeitos secundários, como chamadas de API, manipulação de DOM, inscrições de eventos, etc.
+
+Os hooks proporcionam uma maneira mais simples e intuitiva de escrever componentes em React Native, reduzindo a necessidade de classes e tornando o código mais limpo e legível. Além disso, eles promovem a reutilização de lógica de estado e efeitos entre componentes, facilitando a manutenção e o desenvolvimento de aplicativos React Native.
+
 <br> <br> <br>
 
 
 
-## <img src="https://cdn-icons-png.flaticon.com/512/1804/1804046.png" width="40" height="40" /> Explicação sobre Modal<br>
+## <img src="https://pluginicons.craft-cdn.com/modal-component.svg?1655234971" width="40" height="40" /> Explicação sobre Modal<br>
+
+
+Um modal em React Native é uma janela sobreposta que aparece na parte superior da tela atual, geralmente para exibir conteúdo secundário ou solicitar interação do usuário. Ele é útil para exibir informações temporárias, como mensagens de confirmação, formulários de entrada de dados ou detalhes adicionais sobre um item.
+
+Os modais são úteis porque interrompem temporariamente a interação do usuário com o restante da interface, direcionando toda a atenção para o conteúdo exibido no modal. Eles são implementados usando o componente Modal fornecido pelo React Native, que oferece controle sobre quando o modal é exibido ou oculto.
