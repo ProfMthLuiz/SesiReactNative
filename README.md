@@ -4,6 +4,7 @@
 [:round_pushpin: - Export x Export Default](#-explicação-sobre-export-e-export-default) <br>
 [:round_pushpin: - Rota Stack](#-rota-stack) <br>
 [:round_pushpin: - Componentes Filhos (Childrens)](#-explicação-sobre-childrens--componentes-filhos-) <br>
+[:round_pushpin: - Props (Propriedades)](#-explicação-sobre-props--propriedades-) <br>
 <br><br><br>
 
 
@@ -115,4 +116,10 @@ function HeaderComponent({ children }) {
 
 Todo o conteúdo dentro das tags <HeaderComponent> é passado para a função HeaderComponent como children. E dentro da função, {children} é onde esse conteúdo é renderizado. Isso permite que você crie componentes reutilizáveis e flexíveis no React, onde o conteúdo pode variar de uma instância para outra.
 
+<br> <br> <br>
 
+
+
+## <img src="https://cdn-icons-png.flaticon.com/128/135/135031.png" width="40" height="40" /> Explicação sobre props ( Propriedades )<br>
+
+Em React Native, "props" (abreviação de propriedades) são maneiras de passar dados de um componente para outro. Eles são usados para configurar e personalizar componentes, permitindo que você transmita informações de um lugar para outro dentro da sua aplicação. As props são passadas para os componentes como parâmetros e podem conter qualquer tipo de dado, desde strings e números até funções e objetos complexos. As props ajudam a tornar os componentes mais reutilizáveis e flexíveis, facilitando a personalização e a manutenção do código.
