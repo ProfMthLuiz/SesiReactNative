@@ -5,6 +5,8 @@
 :round_pushpin: - [Rota Stack](#-rota-stack) <br>
 :round_pushpin: - [Componentes Filhos (Childrens)](#-explicação-sobre-childrens--componentes-filhos-) <br>
 :round_pushpin: - [Props (Propriedades)](#-explicação-sobre-props--propriedades-) <br>
+:round_pushpin: - [Hooks](#-explicação-sobre-props--propriedades-) <br>
+:round_pushpin: - [Modal](#-explicação-sobre-props--propriedades-) <br>
 <br><br><br>
 
 
@@ -64,7 +66,7 @@ import qualquerNome from './Arquivo1';
 
 
 
-## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Rota Stack
+## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Explicação sobre Rota Stack
 
 A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
 
@@ -173,3 +175,13 @@ const styles = StyleSheet.create({
 export default App;
 
 ```
+<br> <br> <br>
+
+
+
+## <img src="https://cdn-icons-png.flaticon.com/512/1804/1804046.png" width="40" height="40" /> Explicação sobre Hooks<br>
+<br> <br> <br>
+
+
+
+## <img src="https://cdn-icons-png.flaticon.com/512/1804/1804046.png" width="40" height="40" /> Explicação sobre Modal<br>
