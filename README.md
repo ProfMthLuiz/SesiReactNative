@@ -120,6 +120,6 @@ Todo o conteúdo dentro das tags <HeaderComponent> é passado para a função He
 
 
 
-## <img src="https://cdn-icons-png.flaticon.com/128/135/135031.png" width="40" height="40" /> Explicação sobre props ( Propriedades )<br>
+## <img src="https://cdn-icons-png.flaticon.com/512/1804/1804046.png" width="40" height="40" /> Explicação sobre props ( Propriedades )<br>
 
 Em React Native, "props" (abreviação de propriedades) são maneiras de passar dados de um componente para outro. Eles são usados para configurar e personalizar componentes, permitindo que você transmita informações de um lugar para outro dentro da sua aplicação. As props são passadas para os componentes como parâmetros e podem conter qualquer tipo de dado, desde strings e números até funções e objetos complexos. As props ajudam a tornar os componentes mais reutilizáveis e flexíveis, facilitando a personalização e a manutenção do código.
