@@ -122,4 +122,54 @@ Todo o conteúdo dentro das tags <HeaderComponent> é passado para a função He
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/1804/1804046.png" width="40" height="40" /> Explicação sobre props ( Propriedades )<br>
 
-Em React Native, "props" (abreviação de propriedades) são maneiras de passar dados de um componente para outro. Eles são usados para configurar e personalizar componentes, permitindo que você transmita informações de um lugar para outro dentro da sua aplicação. As props são passadas para os componentes como parâmetros e podem conter qualquer tipo de dado, desde strings e números até funções e objetos complexos. As props ajudam a tornar os componentes mais reutilizáveis e flexíveis, facilitando a personalização e a manutenção do código.
+Em React Native, "props" (abreviação de propriedades) são maneiras de passar dados de um componente para outro. Eles são usados para configurar e personalizar componentes, permitindo que você transmita informações de um lugar para outro dentro da sua aplicação. As props são passadas para os componentes como parâmetros e podem conter qualquer tipo de dado, desde strings e números até funções e objetos complexos. As props ajudam a tornar os componentes mais reutilizáveis e flexíveis, facilitando a personalização e a manutenção do código. <br><br>
+<strong>Exemplo:</strong>
+```
+import React from 'react';
+import { View, Text, TouchableOpacity, StyleSheet } from 'react-native';
+
+const App = () => {
+  const greetUser = (name) => {
+    alert(`Hello, ${name}!`);
+  };
+
+  return (
+    <View style={styles.container}>
+      <GreetingMessage name="John" onPress={greetUser} />
+      <GreetingMessage name="Jane" onPress={greetUser} />
+    </View>
+  );
+};
+
+const GreetingMessage = ({ name, onPress }) => {
+  return (
+    <TouchableOpacity onPress={() => onPress(name)}>
+      <View style={styles.messageContainer}>
+        <Text style={styles.message}>Hello, {name}!</Text>
+      </View>
+    </TouchableOpacity>
+  );
+};
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#fff',
+  },
+  messageContainer: {
+    padding: 10,
+    backgroundColor: '#e0e0e0',
+    borderRadius: 5,
+    marginBottom: 10,
+  },
+  message: {
+    fontSize: 18,
+    fontWeight: 'bold',
+  },
+});
+
+export default App;
+
+```
