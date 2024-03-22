@@ -5,6 +5,10 @@ export default function App() {
   const [count, setCount] = useState(0);
   const [name, setName] = useState();
 
+  useEffect(() => {
+    alert("Hello!");
+  }, [count]);
+
   incrementCount = () => {
     setCount(count + 1);
   };
