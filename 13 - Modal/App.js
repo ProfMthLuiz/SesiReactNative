@@ -15,13 +15,13 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Button title="Abrir modal" onPress={() => visModal(true)} />
-
+      {/* true or false*/}
       <Modal transparent={true} animationType="fade" visible={visible}>
-        <View style={styles.container}>
+        <View style={[styles.container, { backgroundColor: "orange" }]}>
           <View
             style={{
-              width: "50%",
-              height: "50%",
+              width: "80%",
+              height: "80%",
               backgroundColor: "red",
               justifyContent: "center",
               alignItems: "center",
