@@ -17,22 +17,7 @@ export default function App() {
       <Button title="Abrir modal" onPress={() => visModal(true)} />
       {/* true or false*/}
       <Modal transparent={true} animationType="fade" visible={visible}>
-        <View style={[styles.container, { backgroundColor: "orange" }]}>
-          <View
-            style={{
-              width: "80%",
-              height: "80%",
-              backgroundColor: "red",
-              justifyContent: "center",
-              alignItems: "center",
-            }}
-          >
-            <Text>Hello</Text>
-            <Text>Hello</Text>
-            <Text>Hello</Text>
-            <Button title="Fechar modal" onPress={() => visModal(false)} />
-          </View>
-        </View>
+        <Text>SEVIRA!</Text>
       </Modal>
     </View>
   );
