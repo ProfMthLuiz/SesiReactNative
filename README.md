@@ -258,14 +258,14 @@ export default function App() {
 
 <br> <br> <br>
 
-## <img src="https://pluginicons.craft-cdn.com/modal-component.svg?1655234971" width="40" height="40" /> Explicação sobre FlatList<br>
+## <img src="https://cdn-icons-png.flaticon.com/512/8161/8161879.png" width="40" height="40" /> Explicação sobre FlatList<br>
 
 <br> <br> <br>
 
-## <img src="https://pluginicons.craft-cdn.com/modal-component.svg?1655234971" width="40" height="40" /> Explicação sobre Map<br>
+## <img src="https://cdn-icons-png.flaticon.com/512/235/235861.png" width="40" height="40" /> Explicação sobre Map<br>
 
 <br> <br> <br>
 
-## <img src="https://pluginicons.craft-cdn.com/modal-component.svg?1655234971" width="40" height="40" /> Explicação sobre Find<br>
+## <img src="https://cdn-icons-png.flaticon.com/512/4420/4420302.png" width="40" height="40" /> Explicação sobre Find<br>
 
 <br> <br> <br>
