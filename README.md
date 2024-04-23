@@ -259,13 +259,62 @@ export default function App() {
 <br> <br> <br>
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/8161/8161879.png" width="40" height="40" /> Explicação sobre FlatList<br>
+`FlatList` é um componente do React Native usado para exibir listas de dados roláveis. Ele é especialmente útil quando lidamos com grandes conjuntos de dados, pois renderiza apenas os itens visíveis na tela, o que melhora o desempenho. Você fornece à FlatList uma matriz de dados e uma função para renderizar cada item da lista. <br>
+
+```
+import { View, Text, FlatList } from "react-native";
+import { styles } from "./src/styles/styles";
+
+function renderItem({ item }) {
+  return item.component;
+}
+
+function TxtComponent({ txt, bckColor }) {
+  return (
+    <View style={{ backgroundColor: bckColor, height: 250, alignItems: "center", justifyContent: "center", }}>
+      <Text>{txt}</Text>
+    </View>
+  );
+}
+
+export default function App() {
+  const data = [
+    { id: 1, component: <TxtComponent txt="Primeiro Component" bckColor="red" /> },
+    { id: 2, component: <TxtComponent txt="Segundo Component" bckColor="yellow" /> },
+  ];
+
+  return (
+    <View style={styles.container}>
+      <View style={styles.header}></View>
+
+      <FlatList
+        data={data}
+        keyExtractor={(item) => item.id.toString()}
+        renderItem={renderItem}
+      />
+
+      <View style={styles.footer}></View>
+    </View>
+  );
+}
+```
 
 <br> <br> <br>
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/235/235861.png" width="40" height="40" /> Explicação sobre Map<br>
+O método `map` é uma função de array `[]` em JavaScript que permite percorrer todos os elementos de um array e aplicar uma função a cada um deles, retornando um novo array com os resultados dessas operações. É frequentemente usado para transformar uma matriz de dados em uma nova matriz com formato diferente, como criar uma lista de componentes para exibição na interface do usuário. <br>
+
+```
+xxx
+```
 
 <br> <br> <br>
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/4420/4420302.png" width="40" height="40" /> Explicação sobre Find<br>
+O método `find` é uma função de array[] em JavaScript que é usada para encontrar o primeiro elemento em um array que satisfaz uma condição específica. Ele retorna o valor do primeiro elemento que atende à condição ou undefined se nenhum elemento for encontrado. É comumente usado quando precisamos encontrar um elemento específico em uma lista com base em uma condição, como encontrar um objeto com uma determinada propriedade. <br>
+
+```
+xxx
+```
 
 <br> <br> <br>
