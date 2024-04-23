@@ -265,10 +265,12 @@ export default function App() {
 import { View, Text, FlatList } from "react-native";
 import { styles } from "./src/styles/styles";
 
+// Função para renderizar cada item da FlatList
 function renderItem({ item }) {
   return item.component;
 }
 
+// Componente TxtComponent que será renderizado dentro da FlatList
 function TxtComponent({ txt, bckColor }) {
   return (
     <View style={{ backgroundColor: bckColor, height: 250, alignItems: "center", justifyContent: "center", }}>
@@ -277,7 +279,9 @@ function TxtComponent({ txt, bckColor }) {
   );
 }
 
+// Componente principal do aplicativo
 export default function App() {
+  // Dados a serem exibidos na FlatList
   const data = [
     { id: 1, component: <TxtComponent txt="Primeiro Component" bckColor="red" /> },
     { id: 2, component: <TxtComponent txt="Segundo Component" bckColor="yellow" /> },
@@ -285,18 +289,22 @@ export default function App() {
 
   return (
     <View style={styles.container}>
+      {/* Cabeçalho */}
       <View style={styles.header}></View>
 
+      {/* FlatList para renderizar os componentes TxtComponent */}
       <FlatList
-        data={data}
-        keyExtractor={(item) => item.id.toString()}
-        renderItem={renderItem}
+        data={data} // Dados a serem exibidos na lista
+        keyExtractor={(item) => item.id.toString()} // Função para extrair a chave única de cada item
+        renderItem={renderItem} // Função para renderizar cada item da lista
       />
 
+      {/* Rodapé */}
       <View style={styles.footer}></View>
     </View>
   );
 }
+
 ```
 
 <br> <br> <br>
