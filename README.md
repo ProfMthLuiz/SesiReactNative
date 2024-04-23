@@ -7,9 +7,9 @@
 :round_pushpin: - [Props (Propriedades)](#-explicação-sobre-props--propriedades-) <br>
 :round_pushpin: - [Hooks](#-explicação-sobre-hooks) <br>
 :round_pushpin: - [Modal](#-explicação-sobre-modal) <br>
-:round_pushpin: - [FlatList](#-explicação-sobre-modal) <br>
-:round_pushpin: - [Map](#-explicação-sobre-modal) <br>
-:round_pushpin: - [Find](#-explicação-sobre-modal) <br>
+:round_pushpin: - [FlatList](#-explicação-sobre-flatlist) <br>
+:round_pushpin: - [Map](#-explicação-sobre-map) <br>
+:round_pushpin: - [Find](#-explicação-sobre-find) <br>
 <br><br><br>
 
 
@@ -262,7 +262,7 @@ export default function App() {
 
 <br> <br> <br>
 
-## <img src="https://pluginicons.craft-cdn.com/modal-component.svg?1655234971" width="40" height="40" /> Explicação sobre Mao<br>
+## <img src="https://pluginicons.craft-cdn.com/modal-component.svg?1655234971" width="40" height="40" /> Explicação sobre Map<br>
 
 <br> <br> <br>
 
