@@ -313,7 +313,11 @@ export default function App() {
 O método `map` é uma função de array `[]` em JavaScript que permite percorrer todos os elementos de um array e aplicar uma função a cada um deles, retornando um novo array com os resultados dessas operações. É frequentemente usado para transformar uma matriz de dados em uma nova matriz com formato diferente, como criar uma lista de componentes para exibição na interface do usuário. <br>
 
 ```
-xxx
+// Exemplo de uso do .map para dobrar cada número em um array
+const numbers = [1, 2, 3, 4, 5];
+const doubledNumbers = numbers.map((number) => number * 2);
+
+console.log(doubledNumbers); // Saída: [2, 4, 6, 8, 10]
 ```
 
 <br> <br> <br>
@@ -322,7 +326,11 @@ xxx
 O método `find` é uma função de array[] em JavaScript que é usada para encontrar o primeiro elemento em um array que satisfaz uma condição específica. Ele retorna o valor do primeiro elemento que atende à condição ou undefined se nenhum elemento for encontrado. É comumente usado quando precisamos encontrar um elemento específico em uma lista com base em uma condição, como encontrar um objeto com uma determinada propriedade. <br>
 
 ```
-xxx
+// Exemplo de uso do .find para encontrar o primeiro número par em um array
+const numbers = [1, 3, 5, 6, 7, 9];
+const firstEvenNumber = numbers.find((number) => number % 2 === 0);
+
+console.log(firstEvenNumber); // Saída: 6
 ```
 
 <br> <br> <br>
