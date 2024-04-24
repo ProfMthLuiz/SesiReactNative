@@ -39,6 +39,18 @@
 &ensp; &ensp; ``` npm install @react-navigation/native-stack ``` <br>
 &ensp; &ensp; ↔️ Instala o pacote Stack que gerencia a navegação entre diferentes telas. <br> <br> <br>
 
+&ensp; &ensp; ``` npm install @react-navigation/bottom-tabs ``` <br>
+&ensp; &ensp; ↔️ Instala o pacote bottom-tabs que gerencia a navegação entre diferentes telas. <br> <br> <br>
+
+&ensp; &ensp; ``` npm install @react-navigation/drawer ``` <br>
+&ensp; &ensp; ↔️ Instala o pacote drawer que gerencia a navegação entre diferentes telas. <br> <br> <br>
+
+&ensp; &ensp; ``` npx expo install react-native-gesture-handler react-native-reanimated ``` <br>
+&ensp; &ensp; ↔️ Instala duas bibliotecas essenciais para interações de gestos e animações suaves em aplicativos React Native. <br> <br> <br>
+
+&ensp; &ensp; ``` https://icons.expo.fyi/Index ``` <br>
+&ensp; &ensp; 🔗 Link para o site dos icones da Expo Go ( FontAwesome, AntDesign, Feather ). <br> <br> <br>
+
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/gitbook/gitbook-original.svg" width="40" height="40" /> Explicação sobre export e export default<br>
 
