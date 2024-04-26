@@ -101,7 +101,7 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 <br> <br> <br>
 
 
-## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Explicação sobre Tab Bottom
+## <img src="https://cdn-icons-png.flaticon.com/512/3094/3094392.png" width="40" height="40" /> Explicação sobre Tab Bottom
 
 A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
 
@@ -119,7 +119,7 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 <br> <br> <br>
 
 
-## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Explicação sobre Rota Drawer
+## <img src="https://cdn-icons-png.flaticon.com/512/5461/5461272.png" width="40" height="40" /> Explicação sobre Rota Drawer
 
 A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
 
