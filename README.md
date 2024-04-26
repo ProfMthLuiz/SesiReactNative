@@ -103,11 +103,9 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/3094/3094392.png" width="40" height="40" /> Explicação sobre Tab Bottom
 
-A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
+A rota TabBottom é usada para criar uma barra de navegação na parte inferior da tela, cada aba na barra representa uma seção específica do aplicativo. É especialmente útil para aplicativos com várias seções ou funcionalidades principais, permitindo que os usuários alternem entre elas facilmente. Cada aba geralmente possui um ícone e um rótulo descritivo para indicar seu propósito.
 
-Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "rota" dentro do aplicativo. Quando o usuário navega para uma nova tela, ela é empilhada sobre a tela atual. Isso permite que o usuário volte à tela anterior, desempilhando-a, ou avance para uma nova tela, empilhando-a sobre a tela atual.
-
-<strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Stack, você deve utilizar os seguintes comandos:</strong>
+<strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Tab Bottom, você deve utilizar os seguintes comandos:</strong>
 
 ```
 1º - npx create-expo-app nameYourApp
@@ -121,11 +119,9 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 
 ## <img src="https://cdn-icons-png.flaticon.com/512/5461/5461272.png" width="40" height="40" /> Explicação sobre Rota Drawer
 
-A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
+O Drawer é um menu lateral deslizante que pode ser acessado deslizando da borda esquerda ou direita da tela ou por meio de um botão de menu, é comumente usado para agrupar itens de navegação menos importantes, configurações, ou outras opções de menu. Geralmente, o Drawer contém links para diferentes telas ou seções do aplicativo, proporcionando uma maneira conveniente de acessar diferentes partes do aplicativo sem ocupar espaço na interface principal. É altamente personalizável, permitindo a inclusão de itens de menu, cabeçalhos, e até mesmo itens de sub-menu.
 
-Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "rota" dentro do aplicativo. Quando o usuário navega para uma nova tela, ela é empilhada sobre a tela atual. Isso permite que o usuário volte à tela anterior, desempilhando-a, ou avance para uma nova tela, empilhando-a sobre a tela atual.
-
-<strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Stack, você deve utilizar os seguintes comandos:</strong>
+<strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Drawer, você deve utilizar os seguintes comandos:</strong>
 
 ```
 1º - npx create-expo-app nameYourApp
