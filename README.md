@@ -3,6 +3,8 @@
 :round_pushpin: - [Comandos](#-comandos-utilizados-em-react-native) <br>
 :round_pushpin: - [Export x Export Default](#-explicação-sobre-export-e-export-default) <br>
 :round_pushpin: - [Rota Stack](#-explicação-sobre-rota-stack) <br>
+:round_pushpin: - [Rota TabBottom](#-explicação-sobre-rota-stack) <br>
+:round_pushpin: - [Rota Drawer](#-explicação-sobre-rota-stack) <br>
 :round_pushpin: - [Componentes Filhos (Childrens)](#-explicação-sobre-childrens--componentes-filhos-) <br>
 :round_pushpin: - [Props (Propriedades)](#-explicação-sobre-props--propriedades-) <br>
 :round_pushpin: - [Hooks](#-explicação-sobre-hooks) <br>
@@ -82,6 +84,42 @@ import qualquerNome from './Arquivo1';
 
 
 ## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Explicação sobre Rota Stack
+
+A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
+
+Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "rota" dentro do aplicativo. Quando o usuário navega para uma nova tela, ela é empilhada sobre a tela atual. Isso permite que o usuário volte à tela anterior, desempilhando-a, ou avance para uma nova tela, empilhando-a sobre a tela atual.
+
+<strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Stack, você deve utilizar os seguintes comandos:</strong>
+
+```
+1º - npx create-expo-app nameYourApp
+2º - npm install @react-navigation/native
+3º - npx expo install react-native-screens react-native-safe-area-context
+4º - npm install @react-navigation/native-stack
+5º - npx expo install react-native-web react-dom @expo/metro-runtime
+```
+<br> <br> <br>
+
+
+## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Explicação sobre Tab Bottom
+
+A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
+
+Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "rota" dentro do aplicativo. Quando o usuário navega para uma nova tela, ela é empilhada sobre a tela atual. Isso permite que o usuário volte à tela anterior, desempilhando-a, ou avance para uma nova tela, empilhando-a sobre a tela atual.
+
+<strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Stack, você deve utilizar os seguintes comandos:</strong>
+
+```
+1º - npx create-expo-app nameYourApp
+2º - npm install @react-navigation/native
+3º - npx expo install react-native-screens react-native-safe-area-context
+4º - npm install @react-navigation/native-stack
+5º - npx expo install react-native-web react-dom @expo/metro-runtime
+```
+<br> <br> <br>
+
+
+## <img src="https://cdn-icons-png.flaticon.com/128/8146/8146725.png" width="40" height="40" /> Explicação sobre Rota Drawer
 
 A Rota Stack se refere a uma forma de navegação entre diferentes telas ou componentes em um aplicativo móvel. É uma abordagem comumente usada para criar uma estrutura de navegação hierárquica, onde as telas são empilhadas uma sobre a outra, permitindo que o usuário navegue para frente e para trás entre elas, como em uma pilha de cartas.
 
