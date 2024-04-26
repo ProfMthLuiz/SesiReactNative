@@ -113,7 +113,7 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 1º - npx create-expo-app nameYourApp
 2º - npm install @react-navigation/native
 3º - npx expo install react-native-screens react-native-safe-area-context
-4º - npm install @react-navigation/native-stack
+4º - npm install @react-navigation/bottom-tabs
 5º - npx expo install react-native-web react-dom @expo/metro-runtime
 ```
 <br> <br> <br>
@@ -131,8 +131,9 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 1º - npx create-expo-app nameYourApp
 2º - npm install @react-navigation/native
 3º - npx expo install react-native-screens react-native-safe-area-context
-4º - npm install @react-navigation/native-stack
-5º - npx expo install react-native-web react-dom @expo/metro-runtime
+4º - npm install @react-navigation/drawer
+5º - npx expo install react-native-gesture-handler react-native-reanimated
+6º - npx expo install react-native-web react-dom @expo/metro-runtime
 ```
 <br> <br> <br>
 
