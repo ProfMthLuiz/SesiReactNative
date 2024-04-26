@@ -3,8 +3,8 @@
 :round_pushpin: - [Comandos](#-comandos-utilizados-em-react-native) <br>
 :round_pushpin: - [Export x Export Default](#-explicação-sobre-export-e-export-default) <br>
 :round_pushpin: - [Rota Stack](#-explicação-sobre-rota-stack) <br>
-:round_pushpin: - [Rota TabBottom](#-explicação-sobre-rota-stack) <br>
-:round_pushpin: - [Rota Drawer](#-explicação-sobre-rota-stack) <br>
+:round_pushpin: - [Rota TabBottom](#-explicação-sobre-tab-bottom) <br>
+:round_pushpin: - [Rota Drawer](#-explicação-sobre-rota-drawer) <br>
 :round_pushpin: - [Componentes Filhos (Childrens)](#-explicação-sobre-childrens--componentes-filhos-) <br>
 :round_pushpin: - [Props (Propriedades)](#-explicação-sobre-props--propriedades-) <br>
 :round_pushpin: - [Hooks](#-explicação-sobre-hooks) <br>
