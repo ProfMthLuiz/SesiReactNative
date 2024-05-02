@@ -17,61 +17,54 @@ import {
 } from "./src/imports/imports";
 
 export default function App() {
-  const camRef = useRef(null);
-  const [type, setType] = useState(CameraType.back);
-  const [hasPermission, setHasPermission] = Camera.useCameraPermissions();
-  const [open, setOpen] = useState(false);
-  const [capturedPhoto, setCapturedPhoto] = useState(null);
-  const [capturedVideo, setCapturedVideo] = useState(null);
-  const [status, requestPermission] = Camera.useMicrophonePermissions();
-  const [isRecording, setIsRecording] = useState(false);
+  const camRef = useRef(null); // Referência para o componente da câmera
+  const [type, setType] = useState(CameraType.back); // Estado para o tipo de câmera (frontal ou traseira)
+  const [hasPermission, setHasPermission] = Camera.useCameraPermissions(); // Estado para as permissões da câmera
+  const [open, setOpen] = useState(false); // Estado para controlar a abertura do modal
+  const [capturedPhoto, setCapturedPhoto] = useState(null); // Estado para armazenar a foto capturada
+  const [capturedVideo, setCapturedVideo] = useState(null); // Estado para armazenar o vídeo capturado
+  const [isRecording, setIsRecording] = useState(false); // Estado para controlar se a gravação de vídeo está ocorrendo
 
   useEffect(() => {
     (async () => {
       // Solicitação de permissões da câmera
-      const { status } = await Camera.requestCameraPermissionsAsync();
-      if (status !== "granted") {
-        alert(
-          "Desculpe, precisamos da permissão da câmera para que isso funcione!"
-        );
+      const { status: cameraStatus } = await Camera.requestCameraPermissionsAsync();
+      if (cameraStatus !== "granted") {
+        alert("Desculpe, precisamos da permissão da câmera para que isso funcione!");
         return;
       }
-
-      // Solicitação de permissões da câmera
-      const { microphoneStatus } =
-        await Camera.requestMicrophonePermissionsAsync();
-      if (microphoneStatus !== "granted") {
-        alert(
-          "Desculpe, precisamos da permissão do microfone para que isso funcione!"
-        );
-        return;
-      }
-
+  
       // Solicitação de permissões da biblioteca de mídia
-      const mediaStatus = await MediaLibrary.requestPermissionsAsync();
-      if (mediaStatus.status !== "granted") {
-        alert(
-          "Desculpe, precisamos da permissão da biblioteca de mídia para que isso funcione!"
-        );
+      const { status } = await MediaLibrary.requestPermissionsAsync();
+      if (status !== "granted") {
+        alert("Desculpe, precisamos da permissão da biblioteca de mídia para que isso funcione!");
         return;
       }
-
-      const audioStatus =
-        await MediaLibrary.requestAudioRecordingPermissionsAsync();
-      if (audioStatus.status !== "granted") {
-        alert(
-          "Desculpe, precisamos da permissão de gravação de áudio para que isso funcione!"
-        );
+  
+      // Solicitação de permissões do microfone
+      const { status: microphoneStatus } = await Camera.requestMicrophonePermissionsAsync();
+      if (microphoneStatus !== "granted") {
+        alert("Desculpe, precisamos da permissão do microfone para que isso funcione!");
         return;
       }
-
+  
+      // Solicitação de permissões de escrita da biblioteca de mídia
+      const { status: writeStatus } = await MediaLibrary.requestPermissionsAsync({
+        mediaLibraryWriteOnly: true,
+      });
+      if (writeStatus !== "granted") {
+        alert("Desculpe, precisamos da permissão de escrita da biblioteca de mídia para que isso funcione!");
+        return;
+      }
+  
       setHasPermission(true);
       requestPermission(true);
     })();
   }, []);
+  
 
   if (hasPermission === null) {
-    return <View />;
+    return <View />; // Retorna uma visualização vazia enquanto as permissões estão sendo verificadas
   } else if (!hasPermission.granted) {
     // Se as permissões da câmera não foram concedidas
     return (
@@ -98,6 +91,7 @@ export default function App() {
       const data = await camRef.current.takePictureAsync();
       console.log(data);
       setCapturedPhoto(data.uri);
+      setOpen(true);
     }
   }
 
@@ -160,8 +154,8 @@ export default function App() {
 
           <TouchableOpacity style={styles.button} onPress={recordVideo}>
             <FontAwesome
-              name={isRecording ? "pause" : "camera"}
-              color="play-circle"
+              name={isRecording ? "pause" : "play-circle"}
+              color="gray"
               size={30}
             />
           </TouchableOpacity>
@@ -256,4 +250,4 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     color: "white",
   },
-});
+}); 
