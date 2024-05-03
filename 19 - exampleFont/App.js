@@ -6,9 +6,9 @@ import { useState } from "react";
 
 export default function App() {
   const [fontsLoaded] = useFonts({
-    "Roboto-Bold": require("./assets/fonts/Roboto-Bold.ttf"),
-    "Roboto-Light": require("./assets/fonts/Roboto-Light.ttf"),
-    "Jacquard24-Regular": require("./assets/fonts/Jacquard24-Regular.ttf"),
+    "Roboto-Bold": require("./src/assets/fonts/Roboto-Bold.ttf"),
+    "Roboto-Light": require("./src/assets/fonts/Roboto-Light.ttf"),
+    "Jacquard24-Regular": require("./src/assets/fonts/Jacquard24-Regular.ttf"),
   });
 
   const [notLoadedFont, setNotLoadedFont] = useState(false);
