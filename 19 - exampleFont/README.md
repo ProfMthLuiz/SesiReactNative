@@ -9,13 +9,13 @@ npx expo install expo-font
 <br>
 
 :round_pushpin: 2º Passo: <br>
-Dentro da pastas <strong>assets</strong> ```(Que vem os icons padrões do projeto ( adpative-icon, favicon ))```, criar uma pasta chamada de fonts. <br>
+Dentro da pastas <strong>src/assets</strong>, criar uma pasta chamada de fonts. <br>
 
 ```
 .expo
-assets -> fonts
+assets
 node_modules
-src
+src -> assets -> fonts -> Roboto-Black.ttf
 ```
 <br>
 
