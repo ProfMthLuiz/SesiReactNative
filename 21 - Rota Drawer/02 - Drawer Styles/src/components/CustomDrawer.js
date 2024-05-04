@@ -24,7 +24,7 @@ export default function App(props) {
         <Text style={{ color: "black" }}> Bem vindo!</Text>
       </View>
 
-     
+      <DrawerItemList {...props} />     
     </DrawerContentScrollView>
   );
 }
