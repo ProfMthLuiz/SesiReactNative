@@ -17,7 +17,9 @@
 
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="30" height="30"/> Comandos utilizados em React Native
-&ensp; &ensp; ``` npx create-expo-app nomedoseuapp ``` <br>
+&ensp; &ensp; ``` npx create-expo-app --template ```<br>
+&ensp; &ensp; ``` √ Choose a template: » Blank ```<br>
+&ensp; &ensp; ``` √ What is your app named? ... projetoApiTesting ```<br>
 &ensp; &ensp; 🚀 Cria um novo projeto Expo. <br> <br>
 
 &ensp; &ensp; ``` npx expo start ``` <br>
