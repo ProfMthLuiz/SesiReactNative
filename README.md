@@ -94,11 +94,13 @@ Quando você utiliza a Rota Stack, cada tela ou componente é considerado uma "r
 <strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Stack, você deve utilizar os seguintes comandos:</strong>
 
 ```
-1º - npx create-expo-app nameYourApp
-2º - npm install @react-navigation/native
-3º - npx expo install react-native-screens react-native-safe-area-context
-4º - npm install @react-navigation/native-stack
-5º - npx expo install react-native-web react-dom @expo/metro-runtime
+1º - npx create-expo-app --template
+2º - √ Choose a template: » Blank
+3º - √ What is your app named? ... nomedoseuprojeto
+4º - npm install @react-navigation/native
+5º - npx expo install react-native-screens react-native-safe-area-context
+6º - npm install @react-navigation/native-stack
+7º - npx expo install react-native-web react-dom @expo/metro-runtime
 ```
 <br> <br> <br>
 
@@ -110,11 +112,13 @@ A rota TabBottom é usada para criar uma barra de navegação na parte inferior 
 <strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Tab Bottom, você deve utilizar os seguintes comandos:</strong>
 
 ```
-1º - npx create-expo-app nameYourApp
-2º - npm install @react-navigation/native
-3º - npx expo install react-native-screens react-native-safe-area-context
-4º - npm install @react-navigation/bottom-tabs
-5º - npx expo install react-native-web react-dom @expo/metro-runtime
+1º - npx create-expo-app --template
+2º - √ Choose a template: » Blank
+3º - √ What is your app named? ... nomedoseuprojeto
+4º - npm install @react-navigation/native
+5º - npx expo install react-native-screens react-native-safe-area-context
+6º - npm install @react-navigation/bottom-tabs
+7º - npx expo install react-native-web react-dom @expo/metro-runtime
 ```
 <br> <br> <br>
 
@@ -126,12 +130,14 @@ O Drawer é um menu lateral deslizante que pode ser acessado deslizando da borda
 <strong>Para iniciar um projeto e instalar os pacotes para utilizar a Rota Drawer, você deve utilizar os seguintes comandos:</strong>
 
 ```
-1º - npx create-expo-app nameYourApp
-2º - npm install @react-navigation/native
-3º - npx expo install react-native-screens react-native-safe-area-context
-4º - npm install @react-navigation/drawer
-5º - npx expo install react-native-gesture-handler react-native-reanimated
-6º - npx expo install react-native-web react-dom @expo/metro-runtime
+1º - npx create-expo-app --template
+2º - √ Choose a template: » Blank
+3º - √ What is your app named? ... nomedoseuprojeto
+4º - npm install @react-navigation/native
+5º - npx expo install react-native-screens react-native-safe-area-context
+6º - npm install @react-navigation/drawer
+7º - npx expo install react-native-gesture-handler react-native-reanimated
+8º - npx expo install react-native-web react-dom @expo/metro-runtime
 ```
 <br> <br> <br>
 
